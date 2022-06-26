@@ -8,3 +8,13 @@ C:\Users\X\source\repos\DatReader\DatReader\obj\Debug\DatReader.csproj.GenerateR
 C:\Users\X\source\repos\DatReader\DatReader\obj\Debug\DatReader.csproj.CoreCompileInputs.cache
 C:\Users\X\source\repos\DatReader\DatReader\obj\Debug\DatReader.exe
 C:\Users\X\source\repos\DatReader\DatReader\obj\Debug\DatReader.pdb
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\bin\Debug\DatReader.exe.config
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\bin\Debug\DatReader.exe
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\bin\Debug\DatReader.pdb
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.csprojAssemblyReference.cache
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.Form1.resources
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.Properties.Resources.resources
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.csproj.GenerateResource.cache
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.csproj.CoreCompileInputs.cache
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.exe
+C:\Users\X\Documents\GitHub\DatReader\DatReader\DatReader\obj\Debug\DatReader.pdb

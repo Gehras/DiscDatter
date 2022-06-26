@@ -36,6 +36,7 @@
             this.addPathLabel = new System.Windows.Forms.Label();
             this.toPathLabel = new System.Windows.Forms.Label();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // addButton
@@ -104,6 +105,10 @@
             // 
             this.openFileDialog.Filter = "All Dump Files|*.txt;*.dat";
             // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.Filter = "Dump File|*.dat";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -133,6 +138,7 @@
         private System.Windows.Forms.Label addPathLabel;
         private System.Windows.Forms.Label toPathLabel;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 
