@@ -65,10 +65,10 @@ namespace DatReader
 
                 //Requirements:
                 //Check for any duplicate names being added first
-                //1. Add new <game> to <datafile> (alphabetical?)
-                //2. Add all <rom> to new <game>
+                //1. Add new <game> to <datafile> (alphabetical?) DONE
+                //2. Add all <rom> to new <game> DONE
                 //3. Collect date and modify <header><description>
-                //4. Present user with save file dialog for end file
+                //4. Present user with save file dialog for end file DONE
             }
         }
 
@@ -81,6 +81,7 @@ namespace DatReader
                 {
                     StreamReader addReader = new StreamReader(addFile);
                     StreamReader toReader = new StreamReader(toFile);
+                    //Potential txt convert method?
                     //XElement.Parse(addReader);
                     //XElement.Parse(toReader);
                     var addXML = XDocument.Load(addReader);
