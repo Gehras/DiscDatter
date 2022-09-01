@@ -1,14 +1,17 @@
-Count the number of game <tabs> and add this number to the "To" file's Discs in the description tab
+\\BASIC EXPLANATION\\
 
+The ultimate goal of this program will be to:
+	1. Combine dat files which contain individual ROM information
+	2. Create a corresponding cue file as a result
+	
+\\DETAILED EXPLANATION\\
+
+Count the number of game <tabs> and add this number to the "To" file's Discs in the description tab
 Take current timestamp
 	Replace this on the description
 	Replace this on the version
 	Replace this on the date
-
-Copy/Paste new descriptio
-
-
-TXT file:
+Copy/Paste new description
 Copy all ROMs over
 Add a Game tag and closing corresponding tag
 Add a Description tag in the game tag
@@ -22,8 +25,8 @@ Create a cue file by copying everything after "Cuesheet:" but before "Write Offs
 name the cue file the new name with the .cue extension
 Make sure there is a blank space at the bottom
 
+\\FUTURE EXPANSION\\
 
-Future
 Specify location of 7zip along with checkmark to confirm whether checksums should be generated. https://stackoverflow.com/questions/10520048/calculate-md5-checksum-for-a-file
 
 CRC-32 Generation: 
