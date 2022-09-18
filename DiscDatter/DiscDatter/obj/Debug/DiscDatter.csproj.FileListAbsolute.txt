@@ -1,0 +1,10 @@
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\bin\Debug\DiscDatter.exe.config
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\bin\Debug\DiscDatter.exe
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\bin\Debug\DiscDatter.pdb
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.csprojAssemblyReference.cache
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.Form1.resources
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.Properties.Resources.resources
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.csproj.GenerateResource.cache
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.csproj.CoreCompileInputs.cache
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.exe
+C:\Users\X\Documents\GitHub\DiscDatter\DiscDatter\DiscDatter\obj\Debug\DiscDatter.pdb

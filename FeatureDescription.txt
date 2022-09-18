@@ -1,3 +1,15 @@
+1. Wait to select a submissioninfo.txt and a dat file
+	The dat will be the destination
+	The audio soundtrack information originates from submissioninfo.txt
+2. Check for header, if present do nothing (present with 
+	If header 
+3. If header is not present, copy it from the txt to the dat alphabetically. 
+4. Copy all the cue file info from txt to a new cue file. The name of the cue file should be the header. 
+5. In the dat file add a cue entry with the name of the cue file created. Add the CRC32 and MD5 to this. 
+6. Go to the top of the dat file and modify the description, version, and date information
+	Don't +1. Count the game headers. 
+
+
 \\BASIC EXPLANATION\\
 
 The ultimate goal of this program will be to:

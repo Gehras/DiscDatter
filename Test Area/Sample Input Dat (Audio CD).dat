@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Music - Audio CD</name>
+		<description>Music - Audio CD - Discs (3) (2022-05-23 12-40-32)</description>
+		<version>2022-05-23 12-40-32</version>
+		<date>2022-05-23 12-40-32</date>
+		<author>Non-Game Preservation</author>
+		<homepage>https://docs.google.com/spreadsheets/d/17QSf8hKDDrn5K1FsoxOWPg_wdQgt2S-Le9CnBwS6OSc/edit#gid=21049493</homepage>
+		<url>https://docs.google.com/spreadsheets/d/17QSf8hKDDrn5K1FsoxOWPg_wdQgt2S-Le9CnBwS6OSc/edit#gid=21049493</url>
+	</header>
+	<game name="30 Pegaditas Románticas (Mexico) (CDD-25402)">
+		<description>30 Pegaditas Románticas (Mexico) (CDD-25402)</description>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402).cue" size="3480" crc="5d27dfa7" md5="2d26e6a5e62d8081a2e012ace4062d43" sha1="d5e242e1ccd0498b98e4dc603a250159afd0273f"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 01).bin" size="23240112" crc="37d31e4e" md5="3a37b39bd344b7bd7850bcfe02b1d3dd" sha1="6dc5f41ff7c85af317c57f0d42f3892b50664f8a"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 02).bin" size="21236208" crc="d816ca86" md5="59d75ca2cc6217d15c5baa4fbb464f89" sha1="c62e66013220c8d2934765c33166710328fa7fb5"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 03).bin" size="9821952" crc="c26d1d94" md5="5efa5cc9e82056db3094961560c74acb" sha1="bcc13e6006762b71d78037f210ff76f5c23057f3"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 04).bin" size="12642000" crc="63b4d63b" md5="81b5dfd3d7cdc797bbd54d1d7dd7c5e9" sha1="77953d09161711314075483802d97f3ce67df7f6"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 05).bin" size="15459696" crc="caba7866" md5="a73075e49db02e43f9b19555e04f147f" sha1="00adb21080cf83dda510ad6edfb3c55e7e4a1dc1"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 06).bin" size="17541216" crc="416f46c0" md5="645860271b45bc0b0e590aba127c3f76" sha1="55995500e85f7c8c7df6eaa4e2e82ffda865180b"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 07).bin" size="21793632" crc="5cf77c8d" md5="f7743fe939b9e245470b8cfc7d485352" sha1="497e2e2220f7266baffd791e621d0e91d349a322"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 08).bin" size="25716768" crc="c0adad19" md5="2d985329a2665203453d410799670e5e" sha1="0003428cc1a8e58bf512c723184203bc7a0fee9b"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 09).bin" size="15433824" crc="baa7d52c" md5="9adc25a2621f6f4c19167955f2d0a720" sha1="e45dce38cb5889adbdbb6509641f39be2eb71ef5"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 10).bin" size="14041440" crc="a7a37de2" md5="58451df7b7e205dac4b0f1ca434d79f7" sha1="7e1db41c304bcf28e86cbbe18dacfba70550c2a3"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 11).bin" size="18489072" crc="ab9725f4" md5="5ae182554ac330088e2e74f03de7eec3" sha1="cd6b0f8b55996226fa7d69dae3faf3c785ef7df9"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 12).bin" size="19980240" crc="35bb2c24" md5="3ab1c909e33e9016d5e8cd4e925ef3c7" sha1="59d3b5f36df15b7f84fd773fb8a16e8e5629a419"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 13).bin" size="21485520" crc="ae25f8e3" md5="8a4f1d5c810ac833b7db127b484db32c" sha1="97239ecf46b45152e455a4469d78d4a35363245a"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 14).bin" size="18698400" crc="5a6dac86" md5="e0d90e5e3af69d4403f49027187664a4" sha1="c212633a76314903f479246a24f7f49bf27bbb1d"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 15).bin" size="19149984" crc="ff197b5c" md5="0ac09f2579fb8912af45ce144b0c0a82" sha1="ff3aeae2f051d2ca5f137340108d145882d16614"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 16).bin" size="29404704" crc="ac8047f8" md5="75c1179779655de6ee817350e36f8a55" sha1="69dc95c807ca1650693ab83487e9cdd9258c4033"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 17).bin" size="16282896" crc="05a82be7" md5="eadcc5660b345bdfd274f3ebbc9cef3f" sha1="13b3284f0943ca913ba86fce23e81d29f76bcf99"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 18).bin" size="17985744" crc="7d52ea75" md5="9377d31a14cdeeeceadb5f18fd230313" sha1="0e725dd33f6465a2acd5431b47a121911bcdc4b4"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 19).bin" size="17197824" crc="7f32e847" md5="308028b62a8f81fcc2fd0a0fcaa18a7d" sha1="d4d82a4f1acf687369bde4f11a099e208e74db03"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 20).bin" size="20231904" crc="716ade4d" md5="98ab79ee5bd7c1c3d4560a1937e420ec" sha1="2d5e5090bd48ae7362e0cc11bee38b581fc5e21c"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 21).bin" size="17748192" crc="d7694604" md5="9769a6638878390ddf6e7ae74b644de0" sha1="db0c59747897d2c70958efff3e4be7daaf58fa22"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 22).bin" size="15283296" crc="11f80116" md5="a662cf9a1b2d901c31218662dcf74c04" sha1="9f305cfdb79433d610fec6241f97fac1297d067b"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 23).bin" size="13552224" crc="4d8f20c6" md5="7abf2adb2561a71d678e20f40972528f" sha1="650e1627f1c4845656c8135814e5c53ae9520fbe"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 24).bin" size="19110000" crc="9b53bcd5" md5="021cc8afab2dd49de44e39485782d340" sha1="f01b882cf75f08033d3f759acca977b159393c4f"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 25).bin" size="18957120" crc="e1b01aa9" md5="21ac4861051dbebde1ccddf43b4aaf29" sha1="95dec16312c3f586d3e5c6b5200e8a1f474fd171"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 26).bin" size="27718320" crc="31beb166" md5="1194a31610bcb90860440ab8759ae4d6" sha1="67821d82b13a86f697a07a9acaf8b670fcfe5e5c"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 27).bin" size="19806192" crc="fb133cc3" md5="d65ed02c2d1cb50c399015221f79be11" sha1="abce20fa3a1f7e4a4cc883940d191861c2df5e66"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 28).bin" size="20841072" crc="d32fcf97" md5="cc95047b309a931fccad4c0538ac43a0" sha1="fcc22bf36d6768f2b7e9431a71f1d0219bd60384"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 29).bin" size="23623488" crc="357b58f8" md5="d2a587a560978875c5a406508b8dfe70" sha1="4ee3112667e00c2eeb1c2a03ce4435b58dfb54b8"/>
+		<rom name="30 Pegaditas Románticas (Mexico) (CDD-25402) (Track 30).bin" size="22322832" crc="952863af" md5="261ed57bbedf52767395cd271d2cc1d0" sha1="8fe38605dc0a6467c202e5ed4d2b52ff80c67567"/>
+	</game>
+	<game name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06)">
+		<description>Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06)</description>
+		<rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06).cue" size="3815" crc="308090ff" md5="5df808f17ea8253c8bfffac5567bc0d3" sha1="572aa559a73a1d06da78e2dd112b2e742a0543f0"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 01).bin" size="13340544" crc="4802d1aa" md5="a4e5d660d5581fbb5cffd38e5705e2c1" sha1="9c0ac3a1e62972a065c23768e0b3ed57dd128862"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 02).bin" size="68005728" crc="e2b45d97" md5="d45683d6520d9399479a9865208eb180" sha1="e51312f6037ee83e08bc70cc02a584839d39663e"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 03).bin" size="18587856" crc="1819ccbd" md5="287ec14fd928b6e9e50602dbc3c79926" sha1="c9a28e6d92fffcfcf821e05db3a48743be64dedd"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 04).bin" size="69807360" crc="96b1ef1c" md5="2a3ea369cee9bbe3b678f4d5c8ec7874" sha1="97c13917c99d94bec44f64647b73b0ed649f411f"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 05).bin" size="19284048" crc="caaf06ff" md5="79116d2855eaa3f105a38ca975cf200c" sha1="67a710126ffac65650a39f8758fabe23647a9f5d"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 06).bin" size="61641216" crc="2a2b8312" md5="3df06248866a61db559fb36c970639b7" sha1="747ffcc9f1c11bdb29202e01329771ff77d1c143"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 07).bin" size="54310032" crc="fe83cbc6" md5="f2e8fe44d2ac34044c4a46371a4fd0f8" sha1="8a9cb2408a03256dbf352cf7579207be4146e952"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 08).bin" size="10459344" crc="cb7e7af2" md5="3a4ebe464e557d76930337dc8d9d84ad" sha1="d0385320e5e8103bc8b04817c15b5294e41f68be"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 09).bin" size="16929696" crc="5167b959" md5="c50ac39720ee4a51d00ddc2a357a9b85" sha1="e70f188ecab89516b3aeebe45c075ba7548badce"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 10).bin" size="26408256" crc="05509e92" md5="87ffa7a48056665bd2000eb96309c56a" sha1="cbd368c0a6ccb70c305afed7b15c3c4f06aa02db"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 11).bin" size="70498848" crc="51fd036c" md5="d67c7ea69de1a1fd645faa8e9ffe3977" sha1="8d0c7855e999933abca4f7f56f81d8ee29faf54a"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 12).bin" size="63456960" crc="73f637a5" md5="24aa23888837dfde0b43c6a2da18aef0" sha1="246b08ac19df10a90dfe349d2de2190e03fc56fa"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 13).bin" size="15852480" crc="3d744ba0" md5="5d92d2345153a3c9bf903ae6f141ff16" sha1="f9fa4919d54731fd5f0d572439f0e7657775f908"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 14).bin" size="65063376" crc="0cd0cffc" md5="9e98952437d553cdf1f079823a456655" sha1="ffab7e08e12236918f669986a0f959770dc03554"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 15).bin" size="33170256" crc="d2158ca3" md5="565eae625fa9b8dee66f04be52fd80df" sha1="53c7b087cd858a45c716af4075db17898480fda2"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 16).bin" size="46750704" crc="802072d9" md5="0ce17dc67d6b1ddfed8c37329efaaee7" sha1="e519c84ebd56ac60b6432b865d16c49c4ede20ad"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 17).bin" size="13298208" crc="58055a1d" md5="e0f81fb71fb65b33d1cd76e0b0931c3d" sha1="edea1b1d13bd440da35d6a0474f6eacf57a594eb"/>
+        <rom name="Boards of Canada - Music Has the Right to Children (UK) (warpcd55x-skald1) (MPO 03-07-06) (Track 18).bin" size="85057728" crc="174a6b9d" md5="f019264c9d75cbea5d5657ddd3739a53" sha1="74851473831a7af2b6c8439927ec554f23138a6b"/>
+	</game>
+	<game name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN)">
+		<description>Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN)</description>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN).cue" size="1548" crc="0e730954" md5="383cac76abf87741be91f1ac3e40c8f5" sha1="2ed5bdf26e8bec1f68ad70273bc06650ccbe078f"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 01).bin" size="24213840" crc="47355552" md5="12138d862c92077e27656b7d92488a3b" sha1="99e6cb393a43148772c85910ca403f662a444e4d"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 02).bin" size="52861200" crc="7a2c30ed" md5="ef7b763ea6e31c45c59cffbe49e2e272" sha1="073a533e9aa91d910db903778adcfb1b96998120"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 03).bin" size="56236320" crc="36c7f7c3" md5="6075bb4117470c9f52d524d9e62568e6" sha1="472f363c9d3d2504c19b4cba0628afaccec96772"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 04).bin" size="40054560" crc="da3f795b" md5="8dfe2ea1baacccfa670e2cde9c678bf7" sha1="6f4dc98649797539a920e0ef699a376d56ba7788"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 05).bin" size="47486880" crc="c16bce47" md5="7abd80184c3d75412ec7ac182fcfc81e" sha1="b67d06be73d4960d09356e275061ebf4e25602b0"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 06).bin" size="47785584" crc="7986a29d" md5="cf6f901e9f7123f83bfc411e1a78977c" sha1="8d327df00c8f62657dec23a58707bf3c08c1379d"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 07).bin" size="8173200" crc="fb11fe06" md5="2a4c95dae63e36e53fffd76f8f9fe5df" sha1="2b51e4bcd801fc099fde0fb8cfa66a45132df300"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 08).bin" size="44847936" crc="abc0de84" md5="8fbdf27fcbcfda6c3ef8a8a16474892e" sha1="2da99370c6cd87faa2c7e1f5e11ec970d7db81be"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 09).bin" size="43998864" crc="17488e08" md5="ee9cf21968be50e4dd2b3c667167b4dc" sha1="99f0e77051189a99246602c972493b68e17297e9"/>
+		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 10).bin" size="76792800" crc="bd0866a2" md5="a39e8a02ba7ff2aca164ed6a2ee6ff59" sha1="83a24fde5b36f93678bf1d4f3129824edd1aeffc"/>
+	</game>
+	<game name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P)">
+		<description>Alice in Chains - Jar of Flies (USA) (CK 57628) (P)</description>
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 1).bin" size="73758720" crc="a8053bb9" md5="43ada4b9529cd834911e6e9f8b977f0b" sha1="276f068fb0fe77405336c7b7e060b86e52d7bd5a" />
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 2).bin" size="45875760" crc="db8fc942" md5="dae1506fc04d2457b8882b7d9ffe90d6" sha1="a0fc413455eb923b07f5425e7ced31ba34eea945" />
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 3).bin" size="44876160" crc="9fa4729a" md5="77bcc472b39eec3dca8e9e04757fd30a" sha1="021885c026ea8bb639bdd042965ccf17362d734b" />
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 4).bin" size="45080784" crc="5906e25a" md5="83a2c2d906fb1ff416509c6195bae5fa" sha1="80ac0e3ca4d9d49d58ae35347e16387ae4e1aa79" />
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 5).bin" size="27694800" crc="e03e0468" md5="05538fb771504bbab507f96526202009" sha1="84b874f09c4bc91a1bb61cb434ec3cfa5e971481" />
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 6).bin" size="46263840" crc="9b827bb0" md5="375acfac46ff00caa15a9704f496e486" sha1="c9bdef587ddacee7e1808e71f19ae3578c60353c" />
+		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 7).bin" size="43107456" crc="5c4f091f" md5="3ad8ff7c603cbde8570354460a73b0f2" sha1="0d0af43bfd3042698ff66fb5e1cb67671ea43e57" />
+	</game>
+</datafile>
