@@ -80,14 +80,4 @@
 		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 09).bin" size="43998864" crc="17488e08" md5="ee9cf21968be50e4dd2b3c667167b4dc" sha1="99f0e77051189a99246602c972493b68e17297e9"/>
 		<rom name="Coldplay - Parachutes (Europe) (7243 5 27783 2 4) (EMI UDEN) (Track 10).bin" size="76792800" crc="bd0866a2" md5="a39e8a02ba7ff2aca164ed6a2ee6ff59" sha1="83a24fde5b36f93678bf1d4f3129824edd1aeffc"/>
 	</game>
-	<game name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P)">
-		<description>Alice in Chains - Jar of Flies (USA) (CK 57628) (P)</description>
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 1).bin" size="73758720" crc="a8053bb9" md5="43ada4b9529cd834911e6e9f8b977f0b" sha1="276f068fb0fe77405336c7b7e060b86e52d7bd5a" />
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 2).bin" size="45875760" crc="db8fc942" md5="dae1506fc04d2457b8882b7d9ffe90d6" sha1="a0fc413455eb923b07f5425e7ced31ba34eea945" />
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 3).bin" size="44876160" crc="9fa4729a" md5="77bcc472b39eec3dca8e9e04757fd30a" sha1="021885c026ea8bb639bdd042965ccf17362d734b" />
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 4).bin" size="45080784" crc="5906e25a" md5="83a2c2d906fb1ff416509c6195bae5fa" sha1="80ac0e3ca4d9d49d58ae35347e16387ae4e1aa79" />
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 5).bin" size="27694800" crc="e03e0468" md5="05538fb771504bbab507f96526202009" sha1="84b874f09c4bc91a1bb61cb434ec3cfa5e971481" />
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 6).bin" size="46263840" crc="9b827bb0" md5="375acfac46ff00caa15a9704f496e486" sha1="c9bdef587ddacee7e1808e71f19ae3578c60353c" />
-		<rom name="Alice in Chains - Jar of Flies (USA) (CK 57628) (P) (Track 7).bin" size="43107456" crc="5c4f091f" md5="3ad8ff7c603cbde8570354460a73b0f2" sha1="0d0af43bfd3042698ff66fb5e1cb67671ea43e57" />
-	</game>
 </datafile>

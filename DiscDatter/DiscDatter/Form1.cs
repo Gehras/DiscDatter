@@ -22,6 +22,7 @@ namespace DiscDatter
         string txtFile = "";
         private void submissionButton_Click(object sender, EventArgs e)
         {
+            //specify txt file after check
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 if (openFileDialog.FileName.EndsWith("txt") == true)
@@ -38,6 +39,7 @@ namespace DiscDatter
 
         private void datButton_Click(object sender, EventArgs e)
         {
+            //specify dat file after check
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 if (openFileDialog.FileName.EndsWith("dat") == true)
@@ -55,6 +57,7 @@ namespace DiscDatter
         private void generateButton_Click(object sender, EventArgs e)
         {
             var parsedName = "";
+            //create list to contain ROMs
             List<string> romLines = new List<string>();
             StreamReader txtReader = new StreamReader(txtFile);
             StreamReader datReader = new StreamReader(datFile);
@@ -63,7 +66,6 @@ namespace DiscDatter
             //create new game name using rom name
             //add rom name info to this game name
             bool nameFound = false;
-            StreamReader inputfile = File.OpenText(txtFile);
             using (txtReader)
             {
                 var line = "";
@@ -116,6 +118,35 @@ namespace DiscDatter
             File.AppendAllText(datFile, "</datafile>" + Environment.NewLine);
             //Show message saying complete
             MessageBox.Show("File modified!");
+
+            //Cue creation
+            string cueFolder = "";
+            CueParser Cue = new CueParser();
+
+            //use cue class parser to generate contents
+            List<string> cueContents = Cue.Parse(txtFile);
+
+            //Define Cue location
+            int cueIndex = txtFile.LastIndexOf("\\");
+            if (cueIndex != -1)
+            {
+                cueFolder = txtFile.Substring(0, cueIndex);
+            }
+            string cueLocation = cueFolder + "\\" + parsedName + ".cue";
+            //create new file at txt file location
+            FileStream cueCreation = File.Create(cueLocation);
+            cueCreation.Close();
+            //open newly created file for editing
+            StreamWriter cueFile = new StreamWriter(cueLocation);
+            foreach (var line in cueContents)
+                //if the string is not whitespace or null, add the line
+            {
+                if (! String.IsNullOrWhiteSpace(line))
+                {
+                    cueFile.WriteLine(line);
+                }   
+            }
+            cueFile.Close();
         }
     }
 }
