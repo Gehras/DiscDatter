@@ -56,7 +56,7 @@ namespace DiscDatter
 
         private void generateButton_Click(object sender, EventArgs e)
         {
-            var parsedName = "";
+            string parsedName = "";
             //create list to contain ROMs
             List<string> romLines = new List<string>();
             StreamReader txtReader = new StreamReader(txtFile);
@@ -96,57 +96,68 @@ namespace DiscDatter
                 //{
                   //  MessageBox.Show(romLines[i]);
                 //}
+
             }
             //Close readers
             datReader.Close();
             txtReader.Close();
-            //insert information into dat
-            var datLines = File.ReadAllLines(datFile);
-            //Remove last </datafile> line
-            File.WriteAllLines(datFile, datLines.Take(datLines.Length - 1).ToArray());
-            //Add game name line
-            var gameName = "\t<game name=\"" + parsedName + "\">";
-            File.AppendAllText(datFile, gameName + Environment.NewLine);
-            //Add description line
-            var descName = "\t\t<description>" + parsedName + "</description>";
-            File.AppendAllText(datFile, descName + Environment.NewLine);
-            //Add rom name lines 
-            romLines.ForEach(item => File.AppendAllText(datFile, item + Environment.NewLine));
-            //Add game terminator
-            File.AppendAllText(datFile, "\t</game>" + Environment.NewLine);
-            //Add datafile terminator
-            File.AppendAllText(datFile, "</datafile>" + Environment.NewLine);
-            //Show message saying complete
-            MessageBox.Show("File modified!");
-
-            //Cue creation
-            string cueFolder = "";
-            CueParser Cue = new CueParser();
-
-            //use cue class parser to generate contents
-            List<string> cueContents = Cue.Parse(txtFile);
-
-            //Define Cue location
-            int cueIndex = txtFile.LastIndexOf("\\");
-            if (cueIndex != -1)
+            //Find if name is present
+            if (XMLCheck.HeaderCheck(parsedName, datFile) == true)
             {
-                cueFolder = txtFile.Substring(0, cueIndex);
-            }
-            string cueLocation = cueFolder + "\\" + parsedName + ".cue";
-            //create new file at txt file location
-            FileStream cueCreation = File.Create(cueLocation);
-            cueCreation.Close();
-            //open newly created file for editing
-            StreamWriter cueFile = new StreamWriter(cueLocation);
-            foreach (var line in cueContents)
-                //if the string is not whitespace or null, add the line
+                MessageBox.Show("Rom name already present. Aborting process.");
+            } else
             {
-                if (! String.IsNullOrWhiteSpace(line))
+                //Duplicate original dat and rename
+                File.Copy(datFile, datFile + "_Backup");
+
+                //insert information into dat
+                var datLines = File.ReadAllLines(datFile);
+                //Remove last </datafile> line
+                File.WriteAllLines(datFile, datLines.Take(datLines.Length - 1).ToArray());
+                //Add game name line
+                var gameName = "\t<game name=\"" + parsedName + "\">";
+                File.AppendAllText(datFile, gameName + Environment.NewLine);
+                //Add description line
+                var descName = "\t\t<description>" + parsedName + "</description>";
+                File.AppendAllText(datFile, descName + Environment.NewLine);
+                //Add rom name lines 
+                romLines.ForEach(item => File.AppendAllText(datFile, item + Environment.NewLine));
+                //Add game terminator
+                File.AppendAllText(datFile, "\t</game>" + Environment.NewLine);
+                //Add datafile terminator
+                File.AppendAllText(datFile, "</datafile>" + Environment.NewLine);
+                //Show message saying complete
+                MessageBox.Show("Dat file modified");
+
+                //Cue creation
+                string cueFolder = "";
+                CueParser Cue = new CueParser();
+
+                //use cue class parser to generate contents
+                List<string> cueContents = Cue.Parse(txtFile);
+
+                //Define Cue location
+                int cueIndex = txtFile.LastIndexOf("\\");
+                if (cueIndex != -1)
                 {
-                    cueFile.WriteLine(line);
-                }   
+                    cueFolder = txtFile.Substring(0, cueIndex);
+                }
+                string cueLocation = cueFolder + "\\" + parsedName + ".cue";
+                //create new file at txt file location
+                FileStream cueCreation = File.Create(cueLocation);
+                cueCreation.Close();
+                //open newly created file for editing
+                StreamWriter cueFile = new StreamWriter(cueLocation);
+                foreach (var line in cueContents)
+                    //if the string is not whitespace or null, add the line
+                {
+                    if (! String.IsNullOrWhiteSpace(line))
+                    {
+                        cueFile.WriteLine(line);
+                    }   
+                }
+                cueFile.Close();
             }
-            cueFile.Close();
         }
     }
 }
