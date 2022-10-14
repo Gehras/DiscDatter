@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Security.Cryptography;
+using System.IO.Hashing;
 
 namespace DiscDatter
 {
@@ -149,13 +151,35 @@ namespace DiscDatter
                 //open newly created file for editing
                 StreamWriter cueFile = new StreamWriter(cueLocation);
                 foreach (var line in cueContents)
-                    //if the string is not whitespace or null, add the line
+                //if the string is not whitespace or null, add the line
                 {
-                    if (! String.IsNullOrWhiteSpace(line))
+                    if (!String.IsNullOrWhiteSpace(line))
                     {
                         cueFile.WriteLine(line);
-                    }   
+                    }
                 }
+                //Caluclate MD5
+                using (MD5 md5 = MD5.Create())
+                {
+                    cueCreation.Position = 0;
+                    foreach (var line in cueContents)
+                    {
+                        byte[] md5HashValue = md5.ComputeHash(cueCreation);
+                        //TODO: Place this value at specified location in DAT
+                    }
+                }
+                //Calculate SHA1
+                using (SHA1 sha1 = SHA1.Create())
+                {
+                    cueCreation.Position = 0;
+                    foreach (var line in cueContents)
+                    {
+                        byte[] sha1HashValue = sha1.ComputeHash(cueCreation);
+                        //TODO: Place this value at specified location in DAT
+                    }
+                }
+                //Calculate CRC32
+                //TODO: Find way to calculate CRC32 using nuget reference (System.IO.Hashing)
                 cueFile.Close();
             }
         }

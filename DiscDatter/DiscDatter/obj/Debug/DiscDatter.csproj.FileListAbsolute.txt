@@ -18,3 +18,14 @@ C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\obj\Debug\DiscDatter
 C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\obj\Debug\DiscDatter.csproj.CoreCompileInputs.cache
 C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\obj\Debug\DiscDatter.exe
 C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\obj\Debug\DiscDatter.pdb
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Buffers.dll
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.IO.Hashing.dll
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Memory.dll
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Buffers.xml
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.IO.Hashing.xml
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Memory.xml
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\X\Documents\GitHub\DatReader\DiscDatter\DiscDatter\obj\Debug\DiscDatter.csproj.CopyComplete

@@ -1,0 +1,11 @@
+md5: System.Security.Cryptography
+dll: System.Security.Cryptography.Algorithms.dll
+Location: https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.md5?view=net-6.0
+
+sha-1: System.Security.Cryptography
+dll: System.Security.Cryptography.Algorithms.dll
+Location: https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.sha1?view=net-6.0
+
+crc32: System.IO.Hashing
+dll: System.IO.Hashing.dll
+Location: https://learn.microsoft.com/en-us/dotnet/api/system.io.hashing.crc32?view=dotnet-plat-ext-7.0
